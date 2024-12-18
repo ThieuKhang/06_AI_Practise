@@ -1,0 +1,69 @@
+# General Python ignores
+__pycache__/
+*.py[cod]
+*.so
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.h5
+*.joblib
+*.csv
+*.tsv
+
+# Virtual Environment
+.env/
+.venv/
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Jupyter Notebooks Checkpoints
+.ipynb_checkpoints/
+
+# Data files (raw, processed, or large datasets)
+data/raw/
+data/processed/
+data/external/
+*.csv
+*.xlsx
+*.json
+
+# Models and serialized files
+models/
+*.h5
+*.pkl
+*.joblib
+*.onnx
+
+# Reports and outputs
+reports/
+results/
+*.html
+
+# IDE-specific files
+.vscode/
+.idea/
+*.iml
+
+# Logs and temp files
+logs/
+*.log
+*.out
+*.tmp
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+*.manifest
+*.spec
+
+# Environment Variables
+.env
